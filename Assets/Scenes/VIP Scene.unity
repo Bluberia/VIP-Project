@@ -16175,7 +16175,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.57e-43, z: 0, w: 1.57e-43}
+  m_BoundingSphereOverride: {x: 0, y: 90.643005, z: -0.000015258789, w: -0.000015258789}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -22800,8 +22800,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.1348629, y: 0.083026886, z: 0.18669128}
+  m_Center: {x: 0.0009393692, y: 0.0046343803, z: 0.009338379}
 --- !u!1 &793648800
 GameObject:
   m_ObjectHideFlags: 0
@@ -51238,8 +51238,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.26639897, y: 0.08754349, z: 0.35516298}
+  m_Center: {x: 0.024813002, y: 0.004357815, z: -0.053871624}
 --- !u!1 &1932167245
 GameObject:
   m_ObjectHideFlags: 0
