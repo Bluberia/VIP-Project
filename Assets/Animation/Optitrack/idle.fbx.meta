@@ -27,8 +27,21 @@ ModelImporter:
       that will be discarded.\n\t'Skeleton 001:LHandNull' has translation animation
       that will be discarded.\n\t'Skeleton 001:RHandNull' has translation animation
       that will be discarded.\n"
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
+    animationRetargetingWarnings: "\nRetargeting quality report for clip 'idle':\n\tLeftLowerLeg
+      average position error 0.4 mm and maximum position error 1.4 mm at time 0:
+      7 (0.5%) Frame 7\n\tRightLowerLeg average position error 1.7 mm and maximum
+      position error 6.2 mm at time 0: 2 (0.2%) Frame 2\n\tLeftUpperArm average position
+      error 1.0 mm and maximum position error 4.8 mm at time 12:59 (95.2%) Frame
+      1259\n\tLeftLowerArm average position error 1.8 mm and maximum position error
+      5.0 mm at time 12:59 (95.2%) Frame 1259\n\tLeftHand average position error
+      17.0 mm and maximum position error 18.8 mm at time 1:30 (9.9%) Frame 130\n\tRightUpperArm
+      average position error 1.0 mm and maximum position error 4.8 mm at time 12:59
+      (95.2%) Frame 1259\n\tRightLowerArm average position error 6.1 mm and maximum
+      position error 9.4 mm at time 13:13 (99.3%) Frame 1313\n\tRightHand average
+      position error 3.2 mm and maximum position error 9.7 mm at time 12:38 (93.7%)
+      Frame 1238\n\tHead average position error 1.0 mm and maximum position error
+      4.8 mm at time 12:59 (95.2%) Frame 1259\n"
+    animationDoRetargetingWarnings: 1
     importAnimatedCustomProperties: 0
     importConstraints: 0
     animationCompression: 3
@@ -51,7 +64,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
