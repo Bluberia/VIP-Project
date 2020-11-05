@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17569268, g: 0.21984774, b: 0.30217513, a: 1}
+  m_IndirectSpecularColor: {r: 0.17569318, g: 0.2198482, b: 0.30217606, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10822,7 +10822,7 @@ GameObject:
   - component: {fileID: 561654400}
   - component: {fileID: 561654402}
   - component: {fileID: 561654401}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Left Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18305,7 +18305,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.1833e-41, z: 0, w: -2.484375}
+  m_BoundingSphereOverride: {x: 9.91e-43, y: 9.4e-44, z: 0, w: -8.390111e-10}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -36427,7 +36427,7 @@ GameObject:
   - component: {fileID: 1108963228}
   - component: {fileID: 1108963230}
   - component: {fileID: 1108963229}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Right Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
