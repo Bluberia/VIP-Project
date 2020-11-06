@@ -1804,6 +1804,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 1fd9352e4ad325940ae06b99a2c780d1, type: 2}
+    - target: {fileID: 5866666021909216657, guid: f3ce6670cba3b634ba7082c667bea6da, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: f3ce6670cba3b634ba7082c667bea6da, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3ce6670cba3b634ba7082c667bea6da, type: 3}
 --- !u!1001 &96926043
@@ -17672,11 +17680,29 @@ Transform:
   m_Father: {fileID: 1206063285}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &636076785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f3ce6670cba3b634ba7082c667bea6da, type: 3}
+  m_PrefabInstance: {fileID: 96019262}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &636076786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f3ce6670cba3b634ba7082c667bea6da, type: 3}
   m_PrefabInstance: {fileID: 96019262}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &636076788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636076785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2c86a9b704a984a8de4836d843d390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focus: {fileID: 1816044311}
 --- !u!1001 &639212467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19161,7 +19187,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.6378e-41, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -36456,6 +36482,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7a0492714b8ea53498effbb8cac2e295, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 8538fa15ffb32f346a04192167fcb7d4, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6240733294840144465, guid: 8538fa15ffb32f346a04192167fcb7d4, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
