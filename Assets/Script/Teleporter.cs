@@ -11,11 +11,25 @@ public class Teleporter : MonoBehaviour
     public Transform water;
     public Transform player;
 
-    public void TeleportCamping() {
+    private void OnTriggerEnter(Collider collider)
+    {
+        switch(collider.transform.name)
+        {
+            case "CampingTeleport":
+                this.TeleportCamping();
+                break;
+            case "WaterTeleport":
+                this.TeleportWater();
+                break;
+        }
+    }
+
+    private void TeleportCamping() {
         player.position = camping.position;
     }
 
-    public void TeleportWater() {
+    private void TeleportWater()
+    {
         player.position = water.position;
     }
 }
